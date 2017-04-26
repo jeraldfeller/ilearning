@@ -25,6 +25,17 @@ class CMS {
 
 
 
+    public function getCompanyInfo(){
+        $pdo = $this->getPdo();
+        $sql = 'SELECT * FROM `company_info`';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        return $content = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    }
+
+
+
     public function getPdo()
     {
         if (!$this->db_pdo)

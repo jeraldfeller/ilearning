@@ -1,3 +1,6 @@
+html {
+    height: 100% !important;
+}
 body {
     color: #767676;
 	background:#F1F2F7;
@@ -127,6 +130,7 @@ a:hover,a:focus {
 /* Header */
 #header .main-header {
     min-height: 86px;
+    height: 10%;
     z-index: 9999;
     width: 100%;
     position: relative;
@@ -320,10 +324,10 @@ h2.title {
     margin: 0 9px 0 0;
 }
 /* Slider */
-.fullwidthbanner-container {
+.fullwidthbanner-container img {
     width: 100% !important;
     position: relative;
-    max-height: 470px !important;
+    height: 100% !important;
     overflow: hidden;
     background-image: url(../img/loader.gif);
     background-repeat: no-repeat;
@@ -2567,4 +2571,8 @@ footer a,.contact-box:hover,#options li a.selected,header .top-bar,header .top-b
 	background: #E8E8E8;
 	box-shadow: none;
 	border: none;
+}
+
+.justify{
+    text-align: justify !important;
 }
