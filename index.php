@@ -8,7 +8,7 @@ include 'includes/header.php';
         <!-- Slider Start-->
         <div class="fullwidthbanner-container">
                         <img src="http://admin.ilearningedu.com/images/header/<?php echo $cmsClass->getHeaderImage(); ?>"  alt="Pixma" data-lazyload="http://admin.ilearningedu.com/images/header/<?php echo $cmsClass->getHeaderImage(); ?>" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-        </div>
+        </div>  
         <!-- Slider End-->
         <!-- Main Content start-->
 

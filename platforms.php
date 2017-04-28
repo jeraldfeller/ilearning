@@ -14,7 +14,7 @@ include 'includes/header.php';
                             <ul>
                                 <li>You are here:</li>
                                 <li><a href="index">Home</a></li>
-                                <li>Services</li>
+                                <li>Platforms</li>
                             </ul>
                         </div>
                     </div>
